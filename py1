@@ -1,0 +1,6 @@
+import cmath
+def calculate_length(a,b):
+    c = cmath.sqrt(a**b)
+    return c
+res = calculate(3,4)
+print res
